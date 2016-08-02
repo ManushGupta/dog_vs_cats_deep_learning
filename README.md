@@ -27,7 +27,7 @@ Made few modifications to the original bvlc_reference_caffenet prototxt file her
  
 This model is a replication of AlexNet with a few modifications.
 
-I chose lr_policy: "step" with stepsize: 2500, base_lr: 0.001 and gamma: 0.1. In this configuration, we will start with a learning rate of 0.001, and we will drop the learning rate by a factor of ten every 2500 iterations.
+I chose lr_policy: "step" with stepsize: 2500, base_lr: 0.001 and gamma: 0.1. In this configuration, i start with a learning rate of 0.001, and will drop the learning rate by a factor of ten every 2500 iterations.
 
 After Training, i obtained the learning curve as follows(this training was done without transfer learning)
 
