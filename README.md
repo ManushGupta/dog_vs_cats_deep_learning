@@ -33,10 +33,14 @@ After Training, i obtained the learning curve as follows(this training was done 
 
 ![alt tag](/caffe_models/caffe_model_1/caffe_model_1_learning_curve.png)
 
-It produced around 89% accuracy on Test Data set as given by Kaggle. 79th place on the competition charts.
+It produced around 87.5% accuracy on Test Data set as given by Kaggle. 80th place on the competition charts.
+
+![alt tag](/kaggle_1.png)
 
 After training with tranfer learning, i obtained the learning curve as follows: (i use the trained bvlc_referrence_caffenet for transfer learning)
 
 ![alt tag](/caffe_models/caffe_model_2/caffe_model_2_learning_curve.png)
 
-It produced around 97% accuracy on Test Data set as given by Kaggle. 21st place in the competition charts.
+It produced around 97% accuracy on Test Data set as given by Kaggle. 22nd place in the competition charts.
+
+![alt tag](/kaggle_2.png)
